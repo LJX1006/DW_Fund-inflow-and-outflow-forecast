@@ -1,6 +1,10 @@
 # DW_Fund-inflow-and-outflow-forecast
 组队学习
 ## 数据探索与分析  
+(一)时间序列图  
+(二)数据分布可视化  
+(三)变量间相关性分析与独立性分析
+
 1.关于时间序列分析：  
 获取用户申购赎回数据，并为其添加时间戳，添加时间戳的方式比较统一，主要为如下方式：  
 data['date']=pd.to_datetime(data['xxx'],format="%Y%m%d")  
